@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="simon.css">
 </head>
 <body>
-    <h1>Simon Says Game</h1>
-    <h2>Press any key to start</h2>
+    <h1 style="color: rgb(77, 136, 247);">Simon Says Game</h1>
+    <h2 style="color:darkolivegreen">Press any key to start</h2>
     <div class="btn-container">
      <div class="line-one">
        <div class="btn red" type="button" id="red">1</div>
@@ -19,6 +19,14 @@
        <div class="btn purple" type="button" id="purple">4</div>
      </div>
     </div>
-    <script src="simon.js"></script>
+    
+    <div class="score-container">
+    <div id="scoreboard">
+      <h3>Scoreboard</h3>
+      <ul id="scores"></ul>
+      <div id="highest-score"></div> <!-- Add this line for highest score display -->
+  </div></div>
+  <script src="simon.js"></script>
+
 </body>
 </html>

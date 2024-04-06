@@ -1,5 +1,10 @@
 body{
     text-align: center;
+    text-decoration-color: #819ff9;
+}
+
+#h1{
+    color: #819ff9;
 }
 
 .btn{
@@ -35,3 +40,33 @@ body{
 .userflash{
     background-color: chartreuse;
 }
+
+
+.score-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#scoreboard {
+    height: 150px;
+    width: 200px;
+    background-color: #92a9ef;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius:10%;
+    
+}
+
+#scores {
+    list-style-type: none;
+    padding: 0;
+}
+
+#scores li {
+    margin-bottom: 5px;
+}
+
+
